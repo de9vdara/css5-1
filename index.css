@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #07081A;
+}
+
+header {
+    border-bottom: 1px solid #261C51;
+}
+
+#navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.purpleNavItem {
+    color: #B968DE;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#navList {
+    list-style-type: none;
+}
+
+.navItem {
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    padding: 14px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#navContainer {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mainWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+
+#mainContainer {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+#mainHeaderText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+#mainHeaderText h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+}
+
+#mainHeaderText p {
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #9100D3;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#companyLogoContainer {
+    display: flex;
+    height: 72px;
+    padding: 0px 72px 24px 72px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+}
+
+#infoBoxesFrame {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    max-width: 1040px;
+
+    justify-content: center;
+}
+
+.infoBox {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+}
+
+.infoBox h3 {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.infoBox p {
+    color: #C0C0C0;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+#infoBoxesWrapper {
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+    margin-bottom: 88px;
+}
+
+#footerFrame {
+    display: flex;
+    height: 64px;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 463px;
+    border-top: 1px solid #261C51;
+}
+
+#footerFrame p {
+    color: #FFF;
+    font-size: 16px;
+}
+#footerImgDiv{
+    display: flex;
+align-items: center;
+gap: var(--spacing-3xl, 24px);
+}
